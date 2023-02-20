@@ -32,7 +32,7 @@ $cuccia_peluche = new Cucce (
         "<h4>Bocconcini di Pollo</h4>", 
         "<p>Categoria: Cibo</p>",
         "<p>Prezzo: €30,99</p>", 
-        "<img class='img-fluid' src='./Immagini/81WlsuYpdTL._AC_SL1500_.jpg' alt=''>",
+        "<img class='img-fluid p-4' src='./Immagini/81WlsuYpdTL._AC_SL1500_.jpg' alt=''>",
         "<p>Tipo di Prodotto: Bocconcini</p>",
         "<p>Ingredienti: Pollo, Manzo</p>",
         "<p>Peso: 1500gr cad.</p>",
