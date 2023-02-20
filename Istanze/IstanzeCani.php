@@ -1,4 +1,5 @@
 <?php
+//! Istanze Cani
 //* Cucce
 // Cuccia in Stoffa
 $cuccia_stoffa = new Cucce (
