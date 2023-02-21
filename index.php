@@ -23,10 +23,12 @@ include __DIR__ . "/Istanze/IstanzeGatti.php";
 <html lang="en">
 <!-- Head -->
 <?php include __DIR__ . "./head.html" ?>
+
 <body>
-<!-- Sezione Cani -->
-<?php include __DIR__ . "./cani.php" ?>
-<!-- Sezione Gatti -->
-<?php include __DIR__ . "./gatti.php" ?>
+    <!-- Sezione Cani -->
+    <?php include __DIR__ . "./cani.php" ?>
+    <!-- Sezione Gatti -->
+    <?php include __DIR__ . "./gatti.php" ?>
 </body>
+
 </html>
