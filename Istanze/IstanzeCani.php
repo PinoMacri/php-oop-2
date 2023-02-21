@@ -37,7 +37,7 @@ try {
     $scatoletta_carne = new Cibo(
         "<h4>Scatoletta di Pollo</h4>",
         "<p>Categoria: Cibo</p>",
-        "<p>Prezzo: €3,99</p>",
+        "<p>Prezzo: €3,54</p>",
         "<img class='img-fluid' src='./immagini/584d73df00255_0000.webp' alt=''>",
         "<p>Tipo di Prodotto: Scatoletta</p>",
         "<p>Ingredienti: Pollo, Cereali</p>",
@@ -45,6 +45,8 @@ try {
         "<p>Valori Nutrizionali: 287Kcal</p>",
     );
 } catch (Exception $e) {
-    echo "ERRORE";
+    echo $e->getMessage();
+    die();
 }
+;
 $scatoletta_carne->setIcona("<i class='fa-solid fa-dog'></i>");
