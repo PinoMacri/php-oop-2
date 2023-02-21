@@ -14,4 +14,11 @@ class Cibo extends ProdottoPerCane
         $this->calorie = $calorie;
 
     }
+    public function setPrezzo($prezzo)
+    {
+        if (!is_numeric($prezzo)) {
+            throw new Exception("Il prezzo deve essere numerico!");
+        }
+        $this->prezzo = $prezzo;
+    }
 }

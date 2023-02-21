@@ -33,14 +33,18 @@ $gioco_palla = new Giochi(
 $gioco_palla->setIcona("<i class='fa-solid fa-dog'></i>");
 
 //* Cibo
-$scatoletta_carne = new Cibo(
-    "<h4>Scatoletta di Pollo</h4>",
-    "<p>Categoria: Cibo</p>",
-    "<p>Prezzo: €3,99</p>",
-    "<img class='img-fluid' src='./immagini/584d73df00255_0000.webp' alt=''>",
-    "<p>Tipo di Prodotto: Scatoletta</p>",
-    "<p>Ingredienti: Pollo, Cereali</p>",
-    "<p>Peso: 150gr</p>",
-    "<p>Valori Nutrizionali: 287Kcal</p>",
-);
+try {
+    $scatoletta_carne = new Cibo(
+        "<h4>Scatoletta di Pollo</h4>",
+        "<p>Categoria: Cibo</p>",
+        "<p>Prezzo: €3,99</p>",
+        "<img class='img-fluid' src='./immagini/584d73df00255_0000.webp' alt=''>",
+        "<p>Tipo di Prodotto: Scatoletta</p>",
+        "<p>Ingredienti: Pollo, Cereali</p>",
+        "<p>Peso: 150gr</p>",
+        "<p>Valori Nutrizionali: 287Kcal</p>",
+    );
+} catch (Exception $e) {
+    echo "ERRORE";
+}
 $scatoletta_carne->setIcona("<i class='fa-solid fa-dog'></i>");

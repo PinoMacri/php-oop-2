@@ -10,7 +10,7 @@ class Cucce extends ProdottoPerCane
         $prezzo,
         $foto,
         $tipo,
-        $colore
+        $colore,
     )
     {
         parent::__construct($nome, $categoria, $prezzo, $foto, $tipo);
